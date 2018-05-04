@@ -14,6 +14,7 @@ architects and development team must consider. These include
 Requirements Overview {#_requirements_overview}
 ---------------------
 The requirements have been provided by Nicolas Sinn.
+
 [See here](../CiE App features_20.3.pdf)
 
 
@@ -42,6 +43,13 @@ document with potential redundancy w.r.t to requirements documents.
 
 Quality Goals {#_quality_goals}
 -------------
+
+| Priority | Goal | Description |
+| --- | --- | --- | 
+| 1 | Stability | The app should run smooth  |
+| Client| Gudrun Socher | Wants to help Nicholas Sinn within the context of a mobie developemnt seminar. |
+| Developers| Students | Want to gain experiences in mobile app development and get a good grade. |
+
 
 **Contents.**
 
