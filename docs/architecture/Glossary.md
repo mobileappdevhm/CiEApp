@@ -3,14 +3,14 @@ Glossary
 
 If there are Terms missing please check the Glossary in Moodle for a full List of the HM-Glossary and add the term to the List.
 
-# General Terms:
+## General Terms:
 
 |               Term                |               Definition                |
 |-----------------------------------|-----------------------------------------|
 |Fakultät                           |Department                               |
-|
 
-# Department Names:
+## Department Names:
+
 |               German              |                   English               |
 |-----------------------------------|-----------------------------------------|
 |Fakultät für Architektur|Department of Architecture|
