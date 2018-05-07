@@ -7,7 +7,13 @@ If there are Terms missing please check the Glossary in Moodle for a full List o
 
 |               Term                |               Definition                |
 |-----------------------------------|-----------------------------------------|
-|Fakultät                           |Department                               |
+|Flutter|Cross-Plattform-Framework that will be used to create two of five preview Apps|
+|Native-App|Either Android or IOS native app. App that is written in the Native Programming Language e.g.: Java,Objective C|
+|Database|Place where the List of Courses and Details of Courses are being Stored|
+|APP-UI|The User Interface of the actual App for the Students|
+|Admin-Interface| The Web-Interface for the Admin|
+
+> Feel free to add more Terms.
 
 ## Department Names:
 
