@@ -15,6 +15,15 @@ If there are Terms missing please check the Glossary in Moodle for a full List o
 
 > Feel free to add more Terms.
 
+
+## Development Terms
+
+|Term|Definition|
+|APP-Page|Page that concerns one APP-Topic e.g.: Course-List,Course-Detail|
+|Navigation Drawer|Side Drawer with Colomns for every APP-Page|
+
+> Feel free to add more Terms.
+
 ## Department Names:
 
 |               German              |                   English               |
