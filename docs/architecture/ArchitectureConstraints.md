@@ -1,22 +1,12 @@
-Architecture Constraints {#section-architecture-constraints}
-========================
+Architecture Constraints
+=======================
+## UI Constraints
+| Constraints | Explanation |
+| --- | --- |
+| Compatible Design | As the app will be deployed on both iOS and Android, the UI design needs to be compatible to both systems. This could be doe by both using Flutters tools for device-specific targetting and using common elements, like the bottom navigation bar. The UI needs to adhere both to Apples and Googles design guidelines. |
+| Scaling | The UI needs to work on all device screen sizes. Therefore it is necessary to check if Flutters scaling works correctly on all implemented Elements (no yellow-black warnings) |
 
-**Contents.**
-
-Any requirement that constrains software architects in their freedom of
-design and implementation decisions or decision about the development
-process. These constraints sometimes go beyond individual systems and
-are valid for whole organizations and companies.
-
-**Motivation.**
-
-Architects should know exactly where they are free in their design
-decisions and where they must adhere to constraints. Constraints must
-always be dealt with; they may be negotiable, though.
-
-**Form.**
-
-Simple tables of constraints with explanations. If needed you can
-subdivide them into technical constraints, organizational and political
-constraints and conventions (e.g. programming or versioning guidelines,
-documentation or naming conventions)
+## Architecture Constraints
+| Constraints | Explanation |
+| --- | --- |
+| Unified Backend | Due to the multiple deployments, the backend should be unified. Currently, the plan is to use Nine, which is developed by students and professors of FK09. |
