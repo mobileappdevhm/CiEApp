@@ -1,31 +1,27 @@
-Design Decisions {#section-design-decisions}
+Design Decisions
 ================
 
-**Contents.**
+## Usage of the NINE:
 
-Important, expensive, large scale or risky architecture decisions
-including rationals. With "decisions" we mean selecting one alternative
-based on given criteria.
+The NINE will be used as our API to get the List of Courses and/or details of Courses. 
 
-Please use your judgement to decide whether an architectural decision
-should be documented here in this central section or whether you better
-document it locally (e.g. within the white box template of one building
-block).
+Why using the NINE:
+- The NINE is already being used by many other Departments. (Standard for many other Departments)
+- The NINE has already some useful API's integrated.
+- Integrating our own API's will be supportet by the maintainer of the NINE.
 
-Avoid redundancy. Refer to section 4, where you already captured the
-most important decisions of your architecture.
+Currently supported API's by the NINE can be found [here](https://nine.wi.hm.edu/Help).
 
-**Motivation.**
+## Web-Interface for the Admin:
 
-Stakeholders of your system should be able to comprehend and retrace
-your decisions.
+There will be a Web-Interface for the Admin.
+The Web-Interface must do the following things:
+- Add Courses to the Course List
+- Change Courses and Course Description
+- Export Excel/CSV/(or similar) of the taken Courses from the Students
+- Send Messages
 
-**Form.**
+Why choose a Web-Interface?
 
-Various options:
-
--   List or table, ordered by importance and consequences or:
-
--   more detailed in form of separate sections per decision
-
--   ADR (architecture decision record) for every important decision
+A Web-Interface gives the Admin more freedome and simplicity. Changing the Course-List or Details via a App is probably more difficult and confusing than doing it on a PC. 
+The other option would be to implement the Admin features into the App itself.... but this would be way more effort and not as clear as a Web-Interface.
