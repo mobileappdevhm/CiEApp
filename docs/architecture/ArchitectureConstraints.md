@@ -10,3 +10,4 @@ Architecture Constraints
 | Constraints | Explanation |
 | --- | --- |
 | Unified Backend | Due to the multiple deployments, the backend should be unified. Currently, the plan is to use Nine, which is developed by students and professors of FK09. |
+| Different Platform Versions | As the App is targeted at different Operating systems, there will be a discrepancy about which features they support. Not all devices have the most current version. | 
