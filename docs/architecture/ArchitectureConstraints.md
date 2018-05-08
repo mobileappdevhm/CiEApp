@@ -12,6 +12,7 @@ Architecture Constraints
 | Unified Backend | Due to the multiple deployments, the backend should be unified. Currently, the plan is to use Nine, which is developed by students and professors of FK09. Nine delivers its API data as JSON. |
 | Different Platform Versions | As the App is targeted at different operating systems, there will be a discrepancy about which features they support. Not all devices have the most current version. | 
 | Usage/Documentation of native methods | Due to Flutter not offering all features that programming nativly does, it might be neccessary to use native callback methods. Please make sure to document these thoroughly. |
+| Flutter Files | Please divide your code into different files, use one file for one class in normal circumstances, the only exceptions are private classes prefixed with an underscore, such as State classes. | 
 
 
 ## Organisational Constraints
