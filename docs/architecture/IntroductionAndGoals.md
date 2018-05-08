@@ -13,10 +13,10 @@ Quality Goals
 
 | Priority | Goal | Description |
 | --- | --- | --- | 
-| 1 | Stability | The app should run smmoth and bug free on IOS and Android devices. |
+| 1 | Stability | The app should run smoth and bug free on IOS and Android devices. |
 | 2| Security | The personal data and log in information of the students should be handled with care. |
-| 3| Regularity | The data should be stored in a reliable way. |
-| 3| correctness  | The data displayed in the app should be accurate. |
+| 3| Reliability | The data should be stored in a reliable way. |
+| 3| Correctness  | The data displayed in the app should be accurate. |
 
 ## Stakeholders
 
