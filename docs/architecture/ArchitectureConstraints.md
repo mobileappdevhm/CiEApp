@@ -17,8 +17,8 @@ Architecture Constraints
 ## Organisational Constraints
 | Constraints | Explanation |
 | --- | --- |
-| Naming Conventions | As the app is being developed over multiple teams, it is neccessary to be able to tell which team build the app. Therefore, app binaries and the app name that is visible in the system needs to include the team number. |
+| Naming Conventions | As the app is being developed over multiple teams, it is neccessary to be able to tell which team build the app. Therefore, both the app binaries and the visible app name need to include the team number. |
 | Versioning Conventions | The versioning starts at 0.1. For every major update, which is also visible to the user, increment the number in front of the decimal point. For minor updates, incement the number behind the decimal point. |
-| Package Names | Please make sure that the package name for Android applications includes the HMs URL, as per naming conventions. For Team 1, the package name would be: edu.hm.cs.mobileappdev.cieapp.team1 |
+| Package Names | Please make sure that the package name for Android applications includes the HMs URL, as per Java naming conventions. For Team 1, the package name would be: edu.hm.cs.mobileappdev.cieapp.team1 |
 | Documentation | If a team decides to implement a feature which is not described or aviable in the unified backend, the team needs to make sure that the feature is documented in their teams wiki. | 
 
