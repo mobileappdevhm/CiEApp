@@ -21,7 +21,8 @@ If there are Terms missing please check the Glossary in Moodle for a full List o
 |Term|Definition|
 |---|---|
 |APP-Page|Page that concerns one APP-Topic e.g.: Course-List,Course-Detail|
-|Navigation Drawer|Side Drawer with Colomns for every APP-Page|
+|Navigation Drawer|Side Drawer with Columns for every APP-Page|
+|Bottom Navigation Bar|Bottom Bar with buttons to navigate to different App pages|
 
 > Feel free to add more Terms.
 
