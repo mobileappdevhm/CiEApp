@@ -1,9 +1,12 @@
-Risks and Technical Debts {#section-technical-risks}
+Risks and Technical Debts
 =========================
 ## Risks
 -Incomplete definition: If our requirements are not fully defined, working on the app might cause us to have to change already implemented functionality. To avoid this, we should finalize our design of the basic functions before development starts.
+
 -Parallel development: An inherent risk of working with VCS is that there are changes to merge in a single source base. To avoid this, please commit as often as neccessary and sensible.
+
 -Lack of understanding: If desicions are made that ignore possible technical debts, it piles up and gets more difficult to deal with. To avoid this, please consider the possible technical debt if you make a project desicion.
+
 -Lack of collaboration: Where knowledge isn't shared around or not every question a developer might have is answered. To avoid this, ensure that the group works in a good atmosphere. Every member of the group needs to give advice and help each other.
 
 ## Common Causes of Technical Debts
