@@ -16,5 +16,5 @@ Risks and Technical Debts {#section-technical-risks}
 |**Lack of alignment to standards**, where industry standard features, frameworks, technologies are ignored. Eventually, integration with standards will come, doing sooner will cost less (similar to 'delayed refactoring').|
 |**Lack of knowledge**, when the developer simply doesn't know how to write elegant code|
 |**Lack of ownership**, when outsourced software efforts result in in-house engineering being required to refactor or rewrite outsourced code.|
-|**Poor technological leadership** where poorly thought out commands handed down the chain of command increases the technical debt rather than reduce it.|
-|**Last minute specification changes** these have potential to percolate throughout a project but no time or budget to see them through with documentation and checks.|
+|**Poor technological leadership** where poorly thought out commands handed down the chain of command increases the technical debt rather than reduce it.|All of the team leaders are very smart and wise.I think we don't need to worry about this problem|
+|**Last minute specification changes** these have potential to percolate throughout a project but no time or budget to see them through with documentation and checks.|We should consider our plan carefully and do most of the adjustment before developing|
