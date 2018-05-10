@@ -1,84 +1,40 @@
-Cross-cutting Concepts {#section-concepts}
+Cross-cutting Concepts 
 ======================
 
-**Content.**
+**User Experience concepts (UX)**
+-----
+***User Interface***
 
-This section describes overall, principal regulations and solution ideas
-that are relevant in multiple parts (= cross-cutting) of your system.
-Such concepts are often related to multiple building blocks. They can
-include many different topics, such as
+The user interface of the app should look as native as possible, while still using Flutters opportunities for shared design. This would include not using elements like i.e. a drawer menu as it is only native to Android and not on iOS. An alternative would be a Bottom Navigation Bar.
 
--   domain models
+***Localisation***
 
--   architecture patterns or design patterns
+Flutter offers the opportunity to easily implement translations. The app should be developed in English and offer the opportunity to use a German translation. Further translations could be added later on.
+ 
+ 
+    
+**Safety and security concepts**
+- 
+***Safe Storage***
 
--   rules for using specific technology
+Due to targetting multiple operating systems, it is not possible to securely store data using Flutters own possibilies. Therefore, native code is necessary to store whatever authentification method data we need to authenticate with Nine. Please make sure to use storage especially designated for sensitive data. (On android: using the apps private directory, on iOS: using Keychain)
 
--   principal, often technical decisions of overall decisions
 
--   implementation rules
+**Architecture and design patterns**
+-
 
-**Motivation.**
+***Model-View-Controller***
 
-Concepts form the basis for *conceptual integrity* (consistency,
-homogeneity) of the architecture. Thus, they are an important
-contribution to achieve inner qualities of your system.
+If at all possible, please adhere to the Model-View-Controller Design pattern.
 
-Some of these concepts cannot be assigned to individual building blocks
-(e.g. security or safety). This is the place in the template that we
-provided for a cohesive specification of such concepts.
+Otherwise, please adhere to the guidelines outlined in Architectural Constraints.
 
-**Form.**
+"Under-the-hood"
 
-The form can be varied:
+**Development concepts**
+-
+***Test-Driven Development and Continous Integration***
 
--   concept papers with any kind of structure
+If possible, please use Flutters test suite to write tests for the app, to see if displaying data works in the way that it is expected. It is not neccessary to check against specific strings, but your tests should give a good overview of the apps behavior. If possible, please test your native code as well.
+Please use CI to test your app as well, and, if successful, add your Apps apk file to the release tag in Github for easy overview.
 
--   cross-cutting model excerpts or scenarios using notations of the
-    architecture views
-
--   sample implementations, especially for technical concepts
-
--   reference to typical usage of standard frameworks (e.g. using
-    Hibernate for object/relational mapping)
-
-**Structure.**
-
-A potential (but not mandatory) structure for this section could be:
-
--   Domain concepts
-
--   User Experience concepts (UX)
-
--   Safety and security concepts
-
--   Architecture and design patterns
-
--   "Under-the-hood"
-
--   development concepts
-
--   operational concepts
-
-Note: it might be difficult to assign individual concepts to one
-specific topic on this list.
-
-![Possible topics for crosscutting
-concepts](images/08-Crosscutting-Concepts-Structure-EN.png)
-
-*&lt;Concept 1&gt;* {#__emphasis_concept_1_emphasis}
--------------------
-
-*&lt;explanation&gt;*
-
-*&lt;Concept 2&gt;* {#__emphasis_concept_2_emphasis}
--------------------
-
-*&lt;explanation&gt;*
-
-…
-
-*&lt;Concept n&gt;* {#__emphasis_concept_n_emphasis}
--------------------
-
-*&lt;explanation&gt;*
