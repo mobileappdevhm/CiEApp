@@ -16,4 +16,4 @@ Quality Scenarios
 1. The app is available on the IOS and Android market place.
 1. The app dosen't need much memory.
 1. The app uses litte mobile data.
-1. The app is easily maintainable by teh CiE team.
+1. The app is easily maintainable by the CiE team.
