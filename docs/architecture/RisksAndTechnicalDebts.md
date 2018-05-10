@@ -1,5 +1,8 @@
 Risks and Technical Debts
 =========================
+## What is Technical Debt?
+Technical Debt is the time required by a rework that becomes neccessary if one chooses an easy over a better approach. If this debt piles up, it becomes harder and harder to make changes later in the project. It is not neccessary a bad thing, as it can also move a project forward by a significant ammount, but it is neccessary to keep them in check to ensure proper maintainability.
+
 ## Risks
 -Incomplete definition: If our requirements are not fully defined, working on the app might cause us to have to change already implemented functionality. To avoid this, we should finalize our design of the basic functions before development starts.
 
