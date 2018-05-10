@@ -2,8 +2,8 @@ Risks and Technical Debts {#section-technical-risks}
 =========================
 
 ## Common Causes of Technical Debts
-|Causes                   |
-| ---------------------- |
+|Causes                  |Solution or Advice|
+| ---------------------- |-------------------|
 | **Insufficient up-front definition**, where requirements are still being defined during development, development starts before any design takes place. This is done to save time but often has to be reworked later|
 | **Business pressures**, where the business considers getting something released sooner before all of the necessary changes are complete, builds up technical debt comprising those uncompleted changes|
 | **Lack of process or understanding**, where businesses are blind to the concept of technical debt, and make decisions without considering the implications|
