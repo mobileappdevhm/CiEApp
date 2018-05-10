@@ -1,22 +1,5 @@
 Risks and Technical Debts {#section-technical-risks}
 =========================
 
-**Contents.**
-
-A list of identified technical risks or technical debts, ordered by
-priority
-
-**Motivation.**
-
-“Risk management is project management for grown-ups” (Tim Lister,
-Atlantic Systems Guild.)
-
-This should be your motto for systematic detection and evaluation of
-risks and technical debts in the architecture, which will be needed by
-management stakeholders (e.g. project managers, product owners) as part
-of the overall risk analysis and measurement planning.
-
-**Form.**
-
-List of risks and/or technical debts, probably including suggested
-measures to minimize, mitigate or avoid risks or reduce technical debts.
++| Risks | Please divide your code into different files, use one file for one class in normal circumstances, the only exceptions are private classes prefixed with an underscore, such as State classes. | 
++| Technical Debts| Please divide your code into different files, use one file for one class in normal circumstances, the only exceptions are private classes prefixed with an underscore, such as State classes. | 
