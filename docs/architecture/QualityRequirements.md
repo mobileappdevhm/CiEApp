@@ -45,7 +45,10 @@ following section.
 Quality Scenarios {#_quality_scenarios}
 -----------------
 
-**Contents.**
+1. The app should only have current information.
+1. The app should 
+*
+**Contents.*
 
 Concretization of (sometimes vague or implicit) quality requirements
 using (quality) scenarios.
